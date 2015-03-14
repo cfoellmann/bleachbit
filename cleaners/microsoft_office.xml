@@ -99,4 +99,11 @@
     <description>Delete the cache</description>
     <action command="delete" search="walk.files" path="$LOCALAPPDATA\Microsoft Help\"/>
   </option>
+  <option id="cache_onenote">
+    <label>OneNote Cache</label>
+    <description>
+Delete the OneNote cache
+Cache be regenerated on the next application startup.</description>
+    <action command="delete" search="walk.all" path="$LOCALAPPDATA\Microsoft\OneNote"/>
+  </option>
 </cleaner>
