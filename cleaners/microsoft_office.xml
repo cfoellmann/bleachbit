@@ -89,4 +89,9 @@
     <action command="winreg" path="HKCU\Software\Microsoft\Office\12.0\Visio\Application" name="LastFile8"/>
     <action command="winreg" path="HKCU\Software\Microsoft\Office\12.0\Visio\Application" name="LastFile9"/>
   </option>
+  <option id="unsaved">
+    <label>Unsaved Files</label>
+    <description>Delete the backups of unsaved files</description>
+    <action command="delete" search="walk.files" path="$LOCALAPPDATA\Microsoft\Office\UnsavedFiles\"/>
+  </option>
 </cleaner>
