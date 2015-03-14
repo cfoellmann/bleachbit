@@ -94,4 +94,9 @@
     <description>Delete the backups of unsaved files</description>
     <action command="delete" search="walk.files" path="$LOCALAPPDATA\Microsoft\Office\UnsavedFiles\"/>
   </option>
+  <option id="cache">
+    <label>Cache</label>
+    <description>Delete the cache</description>
+    <action command="delete" search="walk.files" path="$LOCALAPPDATA\Microsoft Help\"/>
+  </option>
 </cleaner>
